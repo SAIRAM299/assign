@@ -1,0 +1,146 @@
+
+.container{
+    .header{
+        position: fixed;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        background:black;
+        padding: 1rem;
+        z-index: 100;
+        .logoname{
+            h1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        .icon{
+            color: rgb(40,182,27);
+            margin-right: 10px;
+        }
+    }
+    }
+}
+
+@media screen and (max-width:720px) {
+    
+    .navbar{
+        background: black;
+        position: absolute;
+        height: max-content;
+        padding: 1rem;
+        width: 100%;
+        top: 0;
+        left:-500%;
+        box-shadow: 0 2px 4px rgb(40,182,27);
+        transition: .5s linear;
+
+        .navlist{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           margin: auto;
+           width: 100%;
+           .navitem{
+            padding: .5rem 0;
+            .navlink{
+                color: white;
+                font-size: .9rem;
+                font-weight: 600;
+
+                &:hover{
+                    color: rgb(40,182,27);
+                }
+            }
+           }
+        }
+        .end{
+            position: absolute;
+            top: 1rem;
+            right: 1.5rem;
+            .icon{
+                color:rgb(40,182,27) ;
+                &:hover{
+                    color: rgb(0,62,7);
+                }
+            }
+           }    
+    }
+    .activenavbar{
+        left: 0%;
+       }
+
+    .toggy{
+        font-size: 25px;
+        color: rgb(40,182,27);
+        &:hover{
+            color: rgb(0,62,7);
+        }
+    }
+}
+
+@media screen and (min-width:720px) {
+.toggy,.end{
+    display: none;
+}
+
+.header{
+    padding: 1.5rem 2rem;
+    .navbar{
+       .navlist{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-right: 2rem;
+        .navitem{
+            .navlink{
+color: white;
+font-size: .9rem;
+font-weight: 400;
+padding: 0.45rem;
+&:hover{
+    color: rgb(40,182,27);
+}
+            }
+        }
+       }
+    }
+}
+}
+
+@media screen and (min-width:950px) {
+    .logo{
+        margin-left: 2rem;   
+    }
+    .navlist{
+       margin-right: 2rem;
+    }
+    .navitem{
+        padding: 0.7rem;
+        .navlink{
+            font-size: 1rem;
+            font-weight: 600;
+        }
+    }
+}
+
+@media screen and (min-width:1020px) {
+  .header{
+    padding: 1rem 8.5rem;
+    .navlist{
+        .navitem{
+            padding-right: 2rem;
+            .navlink{
+                font-size: 1rem;
+            }
+        }
+        
+    }
+  }
+
+ 
+}

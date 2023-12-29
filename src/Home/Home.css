@@ -1,0 +1,206 @@
+
+.home{
+    height: 80vh;
+    background:url('../assets/zoromo.png');
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    position: relative;
+
+    .homename{
+        text-align: center;
+        position:absolute;
+        bottom: 1rem;
+        .sub{
+            color: white;
+            line-height: 1rem;
+            font-size: 14px;
+            font-weight: 400;
+        }
+        .title{
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            font-weight: 700;
+        }
+        .btns{
+            color: white;
+            padding: .6rem 1.5rem;
+            background: rgb(207, 27, 162);
+            border: none;
+            border-radius: 3rem;
+            outline: none;
+            cursor: pointer;
+            &:hover{
+                background: violet;
+            }
+            }
+    }
+}
+
+.containers{
+    padding: 2rem 0;
+    position: relative;
+    .imagebox{
+        display:flex;
+        flex-direction: column;
+        overflow: hidden;
+        gap: 1rem;
+        align-items: center;
+        .box{
+            border: 1px solid black;
+            height: 50px;
+            width: 50%;
+             position: relative;
+             overflow: hidden;
+             img{
+                height: 100%;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}
+
+
+@media screen and (min-width:600px) {
+    .containers{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    .imagebox{
+        border: 1px solid black;
+        display:flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0;
+        overflow: hidden; 
+        width: 90%;
+        .box{
+            border: 1px solid black;
+            height: 70px;
+            width: 100%;
+             position: relative;
+             overflow: hidden;
+             img{
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+}
+}
+
+@media screen and (min-width:720px) {
+    .home{
+        height: 80vh;
+        background:url('../assets/zoroback.jpg');
+        background-position: center;
+        background-size: cover;
+        justify-content: center;
+        background-repeat: no-repeat;
+        display: flex;
+        align-items: center;
+        margin: auto;
+        position: relative;
+        top: 3rem;
+        .homename{
+            text-align: center;
+            position:absolute;
+            bottom: 3rem;
+            width: 100%;
+            .sub{
+                color: white;
+                font-size: 20px;
+                font-weight: 500;
+            }
+            .title{
+                color: white;
+                text-align: center;
+                padding: 2rem 0;
+                font-size: 3rem;
+                font-weight: 700;
+            }
+            .btns{
+                font-size: 1rem;
+                color: white;
+                padding: 1rem 5rem;
+                background: rgb(207, 27, 162);
+                border: none;
+                border-radius: 3rem;
+                outline: none;
+                cursor: pointer;
+                &:hover{
+                    background: violet;
+                }
+                }
+        }
+    }
+.containers{
+top: 3rem;
+.imagebox{
+    width: 80%;
+}
+
+}
+}
+
+@media screen and (min-width:1024px) {
+    .containers{
+        top: 3rem;
+        .imagebox{
+            width: 70%;
+        }
+        
+        }
+        .home{
+            height: 80vh;
+            background:url('../assets/zorobk.jpg');
+            background-position: center;
+            background-size: cover;
+            justify-content: center;
+            background-repeat: no-repeat;
+            display: flex;
+            align-items: center;
+            margin: auto;
+            position: relative;
+            top: 3rem;
+            .homename{
+                text-align: center;
+                position:absolute;
+                bottom: 1rem;
+                width: 50%;
+                .sub{
+                    color: white;
+                    font-size: 20px;
+                    font-weight: 500;
+                }
+                .title{
+                    color: white;
+                    text-align: center;
+                    padding: 0.5rem;
+                    font-size: 3rem;
+                    font-weight: 700;
+                }
+                .btns{
+                    font-size: 1rem;
+                    color: white;
+                    padding: 1rem 5rem;
+                    background: rgb(207, 27, 162);
+                    border: none;
+                    border-radius: 3rem;
+                    outline: none;
+                    cursor: pointer;
+                    &:hover{
+                        background: violet;
+                    }
+                    }
+            }
+        }
+}
