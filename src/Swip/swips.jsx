@@ -4,13 +4,13 @@ import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import { EffectCoverflow, Pagination } from 'swiper/modules';
-import slide_image_1 from '../assets/mi.jpg';
-import slide_image_2 from '../assets/mi.jpg';
+import slide_image_1 from '../assets/do.jpg';
+import slide_image_2 from '../assets/han.jpg';
 import slide_image_3 from '../assets/mi.jpg';
-import slide_image_4 from '../assets/mi.jpg';
-import slide_image_5 from '../assets/mi.jpg';
-import slide_image_6 from '../assets/mi.jpg';
-import slide_image_7 from '../assets/mi.jpg'
+import slide_image_4 from '../assets/ga.jpg';
+import slide_image_5 from '../assets/ji.jpg';
+import slide_image_6 from '../assets/kum.webp';
+import slide_image_7 from '../assets/co.jpg'
 import './swips.css'
 const Swips = () => {
     return (

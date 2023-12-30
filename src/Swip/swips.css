@@ -10,7 +10,7 @@ body {
   color:black;
   top: 1rem;
   padding: 0;
-  margin: 10%;
+  margin: 0;
   text-align: center;
 }
 
@@ -29,6 +29,7 @@ body {
 
 .swiper-slide img {
   display: block;
+  height: 400px;
   width: 100%;
 }
 
@@ -38,7 +39,7 @@ body {
         font-size: 14px;
         color:black;
         padding: 0;
-        margin: 10%;
+        margin-top: 5%;
         text-align: center;
       }
 }
