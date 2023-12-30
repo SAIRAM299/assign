@@ -1,0 +1,114 @@
+@media screen and (min-width:1000px){
+.fullbod{
+    .conty{
+        display: none;
+    }
+    .texts{
+        display: none;
+    }
+    .imbo{
+        display: none;
+    }
+
+}
+.loader-container {
+    background: black;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+  .loader {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+}
+
+@media screen and (min-width:800px){
+    .fullbod {
+        position: relative;
+        display: flex;
+    }
+    
+    .texts {
+        height: 60vh;
+        width: 100%;
+        background: #989a9b ;
+        display: flex; 
+        justify-content: flex-start;
+        align-items:center ;
+        margin:10%;
+    margin-top: 0;
+    }
+    
+    .conty {
+        width: 100%;
+        margin: 0 auto;
+        h1, h3, p {
+            padding: 2rem;
+            color:black;
+           
+        }
+    } 
+    .imbo {
+        position: absolute;
+        bottom: -7rem;
+        width: 60%;
+        left: 11.5rem;
+        right: 11.5rem;
+        img{
+        width: 100%;
+        height: 300px;
+    }}
+    
+    }
+
+    @media screen and (max-width:800px){
+        .fullbod {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        
+        .texts {
+            height: 60vh;
+            width: 100%;
+            background: #989a9b ;
+            display: flex; 
+            justify-content: flex-start;
+            align-items:center ;
+            margin:10%;
+        
+        margin-bottom: 0;
+        }
+        
+        .conty {
+            width: 100%;
+            margin: 0 auto;
+            h1, h3, p {
+                padding: 2rem;
+                color:black;
+               
+            }
+        } 
+        .imbo {
+            margin: 10%;
+            margin-top: 0;
+            width: 100%;
+            img{
+            width: 100%;
+            height: 300px;
+        }}
+        
+        }
