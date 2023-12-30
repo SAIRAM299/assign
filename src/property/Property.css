@@ -66,6 +66,7 @@
         }
     }
     .content {
+        top: 2rem;
         position: relative;
             display: grid;
             gap: 1rem;

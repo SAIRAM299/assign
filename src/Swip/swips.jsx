@@ -17,7 +17,7 @@ const Swips = () => {
        
 
     <div className='containg'>
-        <h1 className='tid'>Warlord of Sea </h1>
+        <h1 className='tid'>Warlord of Sea - SWIPER JS</h1>
       <Swiper
         effect={'coverflow'}
         grabCursor={true}

@@ -6,6 +6,7 @@ import Home from './Home/Home'
 import Property from './property/Property'
 import About from './About/About'
 import Swips from './Swip/swips'
+import Flip from './flip/Flip'
 
 function App() {
  
@@ -17,6 +18,7 @@ function App() {
       <Property/>
       <About/>
       <Swips/>
+      <Flip/>
     </>
   )
 }

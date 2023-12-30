@@ -68,8 +68,7 @@
         left: 11.5rem;
         right: 11.5rem;
         img{
-        width: 100%;
-        height: 300px;
+        display: none;
     }}
     
     }
