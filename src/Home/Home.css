@@ -46,6 +46,7 @@
     padding: 2rem 0;
     position: relative;
     .imagebox{
+        background: white;
         display:flex;
         flex-direction: column;
         overflow: hidden;

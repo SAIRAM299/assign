@@ -7,6 +7,8 @@ import Property from './property/Property'
 import About from './About/About'
 import Swips from './Swip/swips'
 import Flip from './flip/Flip'
+import Footer from './footer/Footer'
+
 
 function App() {
  
@@ -19,6 +21,8 @@ function App() {
       <About/>
       <Swips/>
       <Flip/>
+      <Footer/>
+      
     </>
   )
 }

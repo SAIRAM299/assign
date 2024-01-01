@@ -12,12 +12,14 @@
 
 }
 .loader-container {
-    background: black;
+    background:violet;
     margin-top: 0;
+    margin-left: 5rem;
+    margin-right: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; 
+    height: 50vh; 
   }
   
   .loader {

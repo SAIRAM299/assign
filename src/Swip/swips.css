@@ -5,16 +5,19 @@ body {
 }
 
 .containg{
-  background: #eee;
+/* background: rgb(33, 33, 33); */
   font-size: 14px;
-  color:black;
-  top: 1rem;
+  color:white;
   padding: 0;
   margin: 0;
   text-align: center;
+  h1{
+    padding: 2rem;
+  }
 }
 
 .swiper {
+  background: rgb(33, 33, 33);
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -35,11 +38,13 @@ body {
 
 @media screen and (min-width:800px) {
     .containg{
-       background: rgb(214, 208, 208);
         font-size: 14px;
-        color:black;
+        color:white;
         padding: 0;
-        margin-top: 5%;
+        margin-top: 3%;
         text-align: center;
+        h1{
+          padding: 2rem;
+        }
       }
 }

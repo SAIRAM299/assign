@@ -4,6 +4,7 @@
     gap: 1rem ;
     display: grid;
     text-align: center;
+    color: white;
     .namy{
         display: flex;
         align-items: center;
